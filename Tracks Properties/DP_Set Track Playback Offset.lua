@@ -151,8 +151,6 @@ function GUI.elms.buttonm10:onmousedown()
 
 end
 
-
-reaper.ShowConsoleMsg("error")
 GUI.onmousemove=get_newtrack
 GUI.Init()
 GUI.Main()
