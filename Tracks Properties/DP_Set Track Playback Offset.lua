@@ -31,7 +31,7 @@ GUI.x, GUI.y, GUI.w, GUI.h = 200, 200, 300, 160
 	
 	GUI.New("delay_slider", "Slider",  10, 20, 40, 250,     "Playback Offset (ms):", -300,   300,  300,    1)
 	GUI.New("delay_txtbox", "Textbox", 50, 100, 80, 100, 40, "")
-	GUI.New("set_button", "Button",  1, 220,  90, 64, 24, "Set_delay", set_track_delay)
+	GUI.New("set_button", "Button",  1, 220,  90, 64, 24, "Set delay", set_track_delay)
 	GUI.New("buttonp1", "Button",  1, 60,  80, 34, 24, "+1", track_delay_1)
 	GUI.New("buttonm1", "Button",  1, 20,  80, 34, 24, "-1", track_delay_m1)
 	GUI.New("buttonp10", "Button",  1, 60,  110, 34, 24, "+10", track_delay_10)
